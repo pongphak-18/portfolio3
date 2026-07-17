@@ -1,0 +1,75 @@
+body {
+    font-family: 'Kanit', 'Segoe UI', sans-serif; /* ใช้ฟอนต์ Kanit เพื่อความทันสมัย */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #2d3748;
+}
+
+/* แถบเมนูด้านบน */
+nav {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* ไล่เฉดสีน้ำเงินหรูๆ */
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #e2e8f0;
+}
+
+/* กล่องเนื้อหาหลัก */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2, h3 {
+    color: #1e3c72;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #e2e8f0;
+    margin: 20px 0;
+}
+
+/* ปรับแต่งตารางประวัติการศึกษา */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f8fafc;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #718096;
+    font-size: 0.85em;
+}
